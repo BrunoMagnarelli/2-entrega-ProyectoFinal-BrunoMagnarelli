@@ -1,0 +1,200 @@
+/* INDEX */
+body {
+    background-color: rgb(0, 0, 0);
+}
+.logo {
+    width: 25%;
+    z-index: 1000;
+    position: absolute;
+}
+.logo:hover {
+    width: 28%;
+    border: 10px;
+    transform: translateX(5px);
+    position: absolute;
+    transition: all 2s;
+
+}
+#carouselExampleFade  {
+    width: 100vw;
+    height: 50vh;
+    z-index: -1000;
+    opacity: .3;
+    align-items: center;
+}
+.conteiner-fluid {
+    background-color: rgb(167, 167, 167);
+}
+.img-index {
+    display:flex
+}
+.bienvenidos {
+    color: aliceblue;
+    text-align: center;
+}
+.navegacion ul li a {
+    color: white;
+}
+
+
+.textos {
+    color: white;
+}
+
+
+.row:hover {
+    
+    transform: translateY(-15px);
+    transition: all 2s;
+
+}
+
+
+.card-text {
+    text-align: center;
+    color: white;
+    opacity: .6;
+}
+.navbar-toggler {
+    position: relative;
+}
+nav {
+    color: aliceblue;
+}
+.nav-item  {
+    color: white;
+}
+.nav-item:hover {
+    background-color: black;
+    border-radius: 40px;
+    transform: translateY(-11px);
+    opacity: .8;
+    transition: all 2s;
+}
+.textos {
+    justify-content: center;
+    text-align: center;
+}
+/*END INDEX*/
+/*FECHAS*/
+.proxima {
+    text-align: center;
+    color: white;
+    font-family: Arial;
+    font-size:xx-large;
+    size: 12em;
+}
+.container {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.img-fechas {
+    z-index: -1000;
+    width: 100vw;
+    opacity: .3;
+}
+.nav-link {
+    color: white;
+}
+.card-title {
+    color: white;
+    text-align: center;
+}
+.card-title:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-radius: 40px;
+    opacity: .6;
+}
+.card-text2 {
+color: white;
+text-align: center;
+}
+.card-text2:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-radius: 40px;
+    opacity: .6;
+    }
+
+.card-link {
+    
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/*REDES*/
+.card-redes {
+    justify-content: space-evenly;
+    align-content: center;
+    display: flex;
+}
+.card-text-center {
+ width: 100%;
+ justify-content: center;
+
+}
+.card-img-top {
+    width: 23%;
+    align-items: center;
+}
+.card-img-top:hover {
+    width: 27%;
+    align-items: center;
+    transform: translateY(-25px);
+}
+.container-redes{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+}
+.img-redes {
+    width: 100vw;
+    z-index: -1000;
+    opacity: .3;
+}
+.card-body-redes {
+    background-color: black;
+    align-content: center;
+}
+.clickea {
+    text-align: center;
+    background-color: black;
+    border: none
+}
+.btn {
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btn:hover {
+    background-color: white;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*NOSOTROS*/
+.body-nosotros {
+    background-color: black;
+}
+.img-back-nos {
+    width: 100vw;
+    z-index: -1000;
+    height: auto;
+}
+.h3-nos {
+    color:white;
+    text-align: center;
+}
+.footer-nos {
+    text-align: center;
+    font-size: small;
+}
+.container-plataformas {
+    align-content:center ;
+}
+.text-footer {
+    font-size: small;
+    text-align: center;
+    color: gray;
+}

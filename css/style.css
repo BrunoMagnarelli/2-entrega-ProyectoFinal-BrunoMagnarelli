@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(0, 0, 0);
+  font-family: Arial;
+}
+
+.logotipo {
+  width: 25%;
+}
+
+.logo {
+  width: 25%;
+  z-index: 1000;
+  position: absolute;
+}
+.logo:hover {
+  width: 28%;
+  border: 10px;
+  transform: translateX(5px);
+  position: absolute;
+  transition: all 2s;
+}
+
+.img-fechas {
+  width: 100%;
+}
+
+#carouselExampleFade {
+  width: 100vw;
+  height: 50vh;
+  z-index: -1000;
+  opacity: 0.3;
+  align-items: center;
+}
+
+.body {
+  background-color: black;
+}
+
+.conteiner-fluid {
+  background-color: rgb(128, 128, 128);
+}
+
+.nav-item a {
+  color: #fff;
+}
+
+.navbar button span {
+  filter: invert(1) brightness(2);
+}
+
+.img-index {
+  display: flex;
+}
+
+.bienvenidos {
+  color: #fff;
+  text-align: center;
+}
+
+.textos {
+  color: #fff;
+  justify-content: center;
+  text-align: center;
+}
+
+.navegacion ul li a {
+  color: white;
+}
+
+.row:hover {
+  transform: translateY(-15px);
+  transition: all 2s;
+}
+
+.card-text {
+  text-align: center;
+  color: #fff;
+  opacity: 0.6;
+}
+
+.navbar-toggler {
+  position: relative;
+}
+
+nav {
+  color: #fff;
+}
+
+.nav-item {
+  color: #fff;
+}
+
+.nav-item:hover {
+  background-color: #000;
+  border-radius: 40px;
+  transform: translateY(-11px);
+  opacity: 0.8;
+  transition: all 2s;
+}
+
+.img-back-nos {
+  width: 100%;
+}
+
+.img-back-redes {
+  width: 100%;
+}
+
+.proximas {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.clickea {
+  text-align: center;
+  color: white;
+}
+
+.container-redes {
+  display: flex;
+  text-align: center;
+}
+
+.card-img-top {
+  width: 6em;
+}
+
+.body {
+  background-color: black;
+  align-content: center;
+}
+
+.text-footer {
+  font-size: small;
+  text-align: center;
+  color: rgb(128, 128, 128);
+}
+
+/*# sourceMappingURL=style.css.map */

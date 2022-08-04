@@ -1,0 +1,10 @@
+$colores: (
+    'Blanco': #fff,
+    'Negro': #000,
+);
+
+@mixin centrar {
+    justify-content: center;
+    text-align: center;
+}
+    

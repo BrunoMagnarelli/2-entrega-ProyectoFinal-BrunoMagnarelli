@@ -1,0 +1,25 @@
+{
+  "name": "entrega-bootstrap--bruno-magnarelli",
+  "version": "1.0.0",
+  "description": "Desafio sass",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:sass": "sass --watch scss/style.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrunoMagnarelli/EntregaBoostrap-BrunoMagnarelli.git"
+  },
+  "author": "Bruno Magnarelli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BrunoMagnarelli/EntregaBoostrap-BrunoMagnarelli/issues"
+  },
+  "homepage": "https://github.com/BrunoMagnarelli/EntregaBoostrap-BrunoMagnarelli#readme",
+  "dependencies": {
+    "nodemon": "^2.0.19",
+    "sass": "^1.53.0"
+  },
+  "devDependencies": {}
+}

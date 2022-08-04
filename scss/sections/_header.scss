@@ -1,0 +1,16 @@
+.logo {
+    width: 25%;
+    z-index: 1000;
+    position: absolute;
+
+    &:hover{
+        width: 28%;
+        border: 10px;
+        transform: translateX(5px);
+        position: absolute;
+        transition: all 2s;  
+     }
+}
+.img-fechas {
+    width: 100%;
+}

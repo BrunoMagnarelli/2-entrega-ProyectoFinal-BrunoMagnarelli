@@ -1,0 +1,93 @@
+#carouselExampleFade  {
+    width: 100vw;
+    height: 50vh;
+    z-index: -1000;
+    opacity: .3;
+    align-items: center;
+}
+.body {
+    background-color: black;
+}
+.conteiner-fluid {
+    background-color: $gris;
+}
+.nav-item a  {
+    color: $blanco;
+}
+
+.navbar button span {
+    filter: invert(1) brightness(2)
+    ;
+}
+.img-index {
+    display:flex
+}
+.bienvenidos {
+    color: $blanco;
+    text-align: center;
+}
+
+
+
+.textos {
+    color: $blanco;
+    justify-content: center;
+    text-align: center;
+}
+
+.navegacion ul li a {
+    color: white;
+
+
+}
+.row:hover {
+    
+    transform: translateY(-15px);
+    transition: all 2s;
+
+}
+
+
+.card-text {
+    text-align: center;
+    color: $blanco;
+    opacity: .6;
+}
+.navbar-toggler {
+    position: relative;
+}
+nav {
+    color: $blanco;
+}
+.nav-item  {
+    color: $blanco;
+}
+.nav-item:hover {
+    background-color: $negro;
+    border-radius: 40px;
+    transform: translateY(-11px);
+    opacity: .8;
+    transition: all 2s;
+}
+.img-back-nos {
+    width: 100%;
+}
+.img-back-redes {
+    width: 100%;
+}
+.proximas {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+.clickea {
+    text-align: center;
+    color: white;
+}
+.container-redes {
+    display: flex;
+    text-align: center;
+}
+.card-img-top {
+    width: 6em;
+}
